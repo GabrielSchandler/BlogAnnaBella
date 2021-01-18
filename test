@@ -1,0 +1,165 @@
+[33mcommit b53486b9a506144e4ef736cbb169c7a456291805[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Gabriel Schandler <gabrielmarquesschandler@gmail.com>
+Date:   Mon Jan 18 15:03:20 2021 -0300
+
+    Primeiro Commit
+
+[1mdiff --git a/biografia.html b/biografia.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..442667e[m
+[1m--- /dev/null[m
+[1m+++ b/biografia.html[m
+[36m@@ -0,0 +1,44 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m[32m<head>[m
+[32m+[m	[32m<meta charset="utf-8">[m
+[32m+[m	[32m<link rel="stylesheet" type="text/css" href="style.css">[m
+[32m+[m	[32m<title>Anna Bella - Biografia</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body >[m
+[32m+[m	[32m<div id="principal">[m
+[32m+[m		[32m<img src="images/capa.png">[m
+[32m+[m
+[32m+[m		[32m<div id="menu">[m
+[32m+[m			[32m<ul>[m
+[32m+[m				[32m<li>│ <a href="index.html">HOME</a> │</li>[m
+[32m+[m				[32m<li><a href="biografia.html"> BIOGRAFIA</a> │</li>[m
+[32m+[m				[32m<li><a href="publicidade.html"> CAMPANHA PUBLICITÁRIA </a>│</li>[m
+[32m+[m				[32m<li><a href="contato.html"> CONTATO </a>│</li>[m
+[32m+[m			[32m</ul>[m[41m	[m
+[32m+[m		[32m</div>[m
+[32m+[m
+[32m+[m		[32m<br>[m
+[32m+[m		[32m<br>[m
+[32m+[m		[32m<br>[m
+[32m+[m
+[32m+[m		[32m<div id="conteudo">[m
+[32m+[m			[32m<h1>Biografia:</h1>[m
+[32m+[m			[32m<p>[m
+[32m+[m			[32mLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum cursus arcu, sed suscipit dolor dignissim in. Curabitur at odio libero. Nunc sapien ligula, venenatis id auctor sed, ultricies ac quam. Nunc placerat lorem eget quam rutrum vestibulum. Nullam interdum ornare ex sed aliquet. Morbi euismod sit amet metus quis egestas. Aliquam et mollis nibh. Phasellus imperdiet nisi ac interdum varius. Aliquam rhoncus lacus erat, semper ultrices erat ultricies pretium. Proin egestas nisi ut nunc facilisis, a aliquam libero pharetra. Nulla egestas lacinia risus non rhoncus. Sed eu ornare turpis, eu placerat mauris. Pellentesque mollis tempor dapibus.[m
+[32m+[m			[32m</p>[m
+[32m+[m			[32m<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum cursus arcu, sed suscipit dolor dignissim in. Curabitur at odio libero. Nunc sapien ligula, venenatis id auctor sed, ultricies ac quam. Nunc placerat lorem eget quam rutrum vestibulum. Nullam interdum ornare ex sed aliquet. Morbi euismod sit amet metus quis egestas. Aliquam et mollis nibh. Phasellus imperdiet nisi ac interdum varius. Aliquam rhoncus lacus erat, semper ultrices erat ultricies pretium. Proin egestas nisi ut nunc facilisis, a aliquam libero pharetra. Nulla egestas lacinia risus non rhoncus. Sed eu ornare turpis, eu placerat mauris. Pellentesque mollis tempor dapibus.[m
+[32m+[m			[32m</p>[m
+[32m+[m		[32m</div>[m
+[32m+[m			[32m<div id="rodape">[m
+[32m+[m		[32m<h6>TODOS OS DIREITOS RESERVADOS.</h6>[m
+[32m+[m	[32m</div>[m
+[32m+[m	[32m</div>[m
+[32m+[m
+[32m+[m[41m	[m
+[32m+[m
+[32m+[m[41m	[m
+[32m+[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/contato.html b/contato.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1ec1b76[m
+[1m--- /dev/null[m
+[1m+++ b/contato.html[m
+[36m@@ -0,0 +1,47 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m[32m<head>[m
+[32m+[m	[32m<meta charset="utf-8">[m
+[32m+[m	[32m<link rel="stylesheet" type="text/css" href="style.css">[m
+[32m+[m	[32m<title>Anna Bella - Contato</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body >[m
+[32m+[m	[32m<div id="principal">[m
+[32m+[m		[32m<img src="images/capa.png">[m
+[32m+[m		[32m<div id="menu">[m
+[32m+[m			[32m<ul>[m
+[32m+[m				[32m<li>│ <a href="index.html">HOME</a> │</li>[m
+[32m+[m				[32m<li><a href="biografia.html"> BIOGRAFIA</a> │</li>[m
+[32m+[m				[32m<li><a href="publicidade.html"> CAMPANHA PUBLICITÁRIA </a>│</li>[m
+[32m+[m				[32m<li><a href="contato.html"> CONTATO </a>│</li>[m
+[32m+[m			[32m</ul>[m[41m	[m
+[32m+[m		[32m</div>[m
+[32m+[m
+[32m+[m		[32m<br>[m
+[32m+[m		[32m<br>[m
+[32m+[m		[32m<br>[m
+[32m+[m
+[32m+[m		[32m<div id="conteudo">[m
+[32m+[m			[32m<h1>Contato:</h1>[m
+[32m+[m			[32m<p>[m
+[32m+[m			[32mLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum cursus arcu, sed suscipit dolor dignissim in. Curabitur at odio libero. Nunc sapien ligula, venenatis id auctor sed, ultri.[m
+[32m+[m			[32m</p>[m
+[32m+[m			[32m<img src="images/foto1.png" class="img-campanha">[m
+[32m+[m			[32m<p>[m
+[32m+[m				[32m<strong>Email:</strong> annnabella@gmail.com[m
+[32m+[m				[32m<br>[m
+[32m+[m				[32m<strong>Telefone:</strong> (11) 2474-4121.[m
+[32m+[m			[32m</p>[m
+[32m+[m		[32m</div>[m
+[32m+[m			[32m<div id="rodape">[m
+[32m+[m		[32m<h6>TODOS OS DIREITOS RESERVADOS.</h6>[m
+[32m+[m	[32m</div>[m
+[32m+[m	[32m</div>[m
+[32m+[m
+[32m+[m[41m	[m
+[32m+[m
+[32m+[m[41m	[m
+[32m+[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/images/capa.png b/images/capa.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0f66c2b[m
+Binary files /dev/null and b/images/capa.png differ
+[1mdiff --git a/images/foto1.png b/images/foto1.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4cc55d9[m
+Binary files /dev/null and b/images/foto1.png differ
+[1mdiff --git a/images/foto2.png b/images/foto2.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6b7c7fa[m
+Binary files /dev/null and b/images/foto2.png differ
+[1mdiff --git a/images/foto3.png b/images/foto3.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4a4a1b4[m
+Binary files /dev/null and b/images/foto3.png differ
+[1mdiff --git a/images/fundo.png b/images/fundo.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eb15289[m
+Binary files /dev/null and b/images/fundo.png differ
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..870cab5[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,44 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html>[m
+[32m+[m[32m<head>[m
+[32m+[m	[32m<meta charset="utf-8">[m
+[32m+[m	[32m<link rel="stylesheet" type="text/css" href="style.css">[m
+[32m+[m	[32m<title>Anna Bella</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body >[m
+[32m+[m	[32m<div id="principal">[m
+[32m+[m		[32m<img src="images/capa.png">[m
+[32m+[m
+[32m+[m		[32m<div id="menu">[m
+[32m+[m			[32m<ul>[m
+[32m+[m				[32m<li>│ <a href="index.html">HOME</a> │</li>[m
+[32m+[m				[32m<li><a href="biografia.html"> BIOGRAFIA</a> │</li>[m
+[32m+[m				[32m<li><a href="publicidade.html"> CAMPANHA PUBLICITÁRIA </a>│</li>[m
+[32m+[m				[32m<li><a href="contato.html"> CONTATO </a>│</li>[m
+[32m+[m			[32m</ul>[m[41m	[m
+[32m+[m		[32m</div>[m
+[32m+[m
+[32m+[m		[32m<br>[m
+[32m+[m		[32m<br>[m
+[32m+[m		[32m<br>[m
+[32m+[m
+[32m+[m		[32m<div id="conteudo">[m
+[32m+[m			[32m<h1>Sobre Anna Bella</h1>[m
+[32m+[m			[32m<p>[m
+[32m+[m			[32mLorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum cursus arcu, sed suscipit dolor dignissim in. Curabitur at odio libero. Nunc sapien ligula, venenatis id auctor sed, ultricies ac quam. Nunc placerat lorem eget quam rutrum vestibulum. Nullam interdum ornare ex sed aliquet. Morbi euismod sit amet metus quis egestas. Aliquam et mollis nibh. Phasellus imperdiet nisi ac interdum varius. Aliquam rhoncus lacus erat, semper ultrices erat ultricies pretium. Proin egestas nisi ut nunc facilisis, a aliquam libero pharetra. Nulla egestas lacinia risus non rhoncus. Sed eu ornare turpis, eu placerat mauris. Pellentesque mollis tempor dapibus.[m
+[32m+[m			[32m</p>[m
+[32m+[m			[32m<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum cursus arcu, sed suscipit dolor dignissim in. Curabitur at odio libero. Nunc sapien ligula, venenatis id auctor sed, ultricies ac quam. Nunc placerat lorem eget quam rutrum vestibulum. Nullam interdum ornare ex sed aliquet. Morbi euismod sit 
